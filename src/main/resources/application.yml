@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: bookapi
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${RDB_URL}
+    username: ${RDB_USERNAME}
+    password: ${RDB_PASSWORD}
+  jpa:
+    generate-ddl: true   # Automatically generate schema based on JPA entities
+    show-sql: true       # Show SQL queries in logs
+    hibernate:
+      ddl-auto: update   # Update the schema without deleting any existing data
+    properties:
+      hibernate:
+        format_sql: true # Pretty print SQL queries in logs
+  data:
+    rest:
+      base-path: "/api/v1"
+jwt:
+  secret: GXFQteIpe6q46Zg6ugSbVZRBTl3Wjyksb+ffbANhfH4=
