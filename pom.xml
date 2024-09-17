@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>me.sukumdev</groupId>
 	<artifactId>bookapi</artifactId>
-	<version>0.0.1-SNAPSHO T</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>bookapi</name>
 	<description>Book Api Project Applicatim</description>
 	<url/>
